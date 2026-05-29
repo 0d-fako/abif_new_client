@@ -108,31 +108,37 @@
 <body class="bg-surface text-on-surface font-body-md selection:bg-primary-fixed selection:text-on-primary-fixed">
 <!-- TopNavBar -->
 <header class="w-full top-0 sticky bg-surface dark:bg-on-surface shadow-sm z-50 transition-all duration-300 ease-in-out">
-<nav class="flex justify-between items-center px-margin-desktop h-20 max-w-container-max mx-auto">
-<div class="font-headline-md text-headline-md text-primary dark:text-primary-fixed font-bold"><a href="index.html">Abif Global</a></div>
+<nav class="relative flex flex-wrap items-center justify-between gap-4 px-margin-mobile py-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-3">
+<span class="flex h-11 w-11 items-center justify-center rounded-full bg-primary/10 text-primary">
+<svg viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+<path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2a8 8 0 017.93 7H14v2h5.93A8 8 0 0112 20a8 8 0 010-16z"/>
+</svg>
+</span>
+<a href="index.html" class="text-primary font-bold tracking-tight text-2xl md:text-headline-md leading-none">Abif Global</a>
+</div>
+<button class="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-xl border border-surface-variant text-on-surface transition hover:bg-surface-container" aria-expanded="false" aria-controls="mobile-menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined">menu</span>
+</button>
 <div class="hidden md:flex items-center gap-8">
 <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors duration-200" href="index.html">Home</a>
 <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors duration-200" href="about.html">About Us</a>
 <a class="font-body-md text-body-md text-on-surface-variant dark:text-surface-variant hover:text-primary transition-colors duration-200" href="services.html">Visa Services</a>
 <a class="font-body-md text-body-md text-primary dark:text-primary-fixed border-b-2 border-primary pb-1" href="contact.html">Contact</a>
 </div>
-<a href="contact.html" class="bg-primary hover:bg-on-primary-fixed-variant text-on-primary px-6 py-3 rounded-lg font-label-md transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center">
+<a href="contact.html" class="hidden md:inline-flex items-center justify-center rounded-full bg-primary hover:bg-on-primary-fixed-variant text-on-primary px-6 py-3 rounded-lg font-label-md transition-all duration-300 transform hover:-translate-y-0.5 shadow-sm">
                 Inquire Now
             </a>
-<!-- Mobile Menu Toggle -->
-<button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
-<span class="material-symbols-outlined">menu</span>
-</button>
-</nav>
-<!-- Mobile Menu -->
-<div class="hidden md:hidden bg-surface-container absolute w-full p-6 shadow-xl" id="mobile-menu">
-<div class="flex flex-col gap-4">
-<a class="font-body-md text-on-surface" href="index.html">Home</a>
-<a class="font-body-md text-on-surface" href="about.html">About Us</a>
-<a class="font-body-md text-on-surface" href="services.html">Visa Services</a>
+<div id="mobile-menu" class="hidden w-full pt-4 md:hidden">
+<div class="flex flex-col gap-4 rounded-2xl bg-surface-container p-6 shadow-xl border border-outline-variant/30">
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="index.html">Home</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="about.html">About Us</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="services.html">Visa Services</a>
 <a class="font-body-md text-primary font-bold" href="contact.html">Contact</a>
+<a class="font-body-md text-primary font-bold mt-2" href="contact.html">Inquire Now</a>
 </div>
 </div>
+</nav>
 </header>
 <main>
 <!-- Hero Section -->

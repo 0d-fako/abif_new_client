@@ -119,8 +119,18 @@
 <body class="bg-surface text-on-surface">
 <!-- TopNavBar -->
 <header class="sticky top-0 z-50 bg-surface dark:bg-surface-container-highest shadow-sm dark:shadow-none">
-<nav class="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-4 max-w-container-max mx-auto">
-<div class="font-headline-md text-headline-md font-bold text-primary dark:text-primary-fixed-dim"><a href="index.html">Abif Global</a></div>
+<nav class="relative flex flex-wrap items-center justify-between gap-4 px-margin-mobile py-4 md:px-margin-desktop max-w-container-max mx-auto">
+<div class="flex items-center gap-3">
+<span class="flex h-11 w-11 items-center justify-center rounded-full bg-primary/10 text-primary">
+<svg viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+<path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2a8 8 0 017.93 7H14v2h5.93A8 8 0 0112 20a8 8 0 010-16z"/>
+</svg>
+</span>
+<a href="index.html" class="text-primary font-bold tracking-tight text-2xl md:text-headline-md leading-none">Abif Global</a>
+</div>
+<button class="md:hidden inline-flex h-11 w-11 items-center justify-center rounded-xl border border-surface-variant text-on-surface transition hover:bg-surface-container" aria-expanded="false" aria-controls="mobile-menu" onclick="document.getElementById('mobile-menu').classList.toggle('hidden')">
+<span class="material-symbols-outlined">menu</span>
+</button>
 <div class="hidden md:flex gap-8 items-center">
 <a class="text-on-surface-variant dark:text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200" href="index.html">Home</a>
 <a class="text-on-surface-variant dark:text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200" href="services.html">Visa Services</a>
@@ -129,7 +139,18 @@
 <a class="text-on-surface-variant dark:text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200" href="about.html">About Us</a>
 <a class="text-on-surface-variant dark:text-on-surface-variant font-body-md hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
 </div>
-<a href="contact.html" class="bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-md scale-95 active:scale-90 transition-transform flex items-center justify-center">Consultation</a>
+<a href="contact.html" class="hidden md:inline-flex bg-primary text-on-primary px-6 py-2.5 rounded-full font-label-md scale-95 active:scale-90 transition-transform flex items-center justify-center">Consultation</a>
+<div id="mobile-menu" class="hidden w-full pt-4 md:hidden">
+<div class="flex flex-col gap-3 rounded-2xl bg-surface-container-lowest p-4 shadow-sm border border-outline-variant/30">
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="index.html">Home</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="services.html">Visa Services</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="services.html">Relocation</a>
+<a class="font-body-md text-primary font-bold" href="services.html">Offers</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="about.html">About Us</a>
+<a class="font-body-md text-on-surface hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
+<a class="font-body-md text-primary font-bold mt-2" href="contact.html">Consultation</a>
+</div>
+</div>
 </nav>
 </header>
 <main>
