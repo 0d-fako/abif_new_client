@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Us | Abif Global</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#fff8f6",
+                    "on-secondary-container": "#6e5c00",
+                    "on-primary-fixed": "#410000",
+                    "on-surface": "#291714",
+                    "secondary-fixed-dim": "#e9c400",
+                    "outline-variant": "#e8bcb6",
+                    "background": "#fff8f6",
+                    "inverse-surface": "#402b28",
+                    "tertiary-container": "#c25227",
+                    "on-tertiary-fixed": "#380c00",
+                    "secondary": "#705d00",
+                    "on-secondary-fixed-variant": "#544600",
+                    "error-container": "#ffdad6",
+                    "tertiary": "#a13a0f",
+                    "on-tertiary-container": "#fffbff",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-fixed-dim": "#ffb59c",
+                    "on-error-container": "#93000a",
+                    "on-surface-variant": "#5e3f3a",
+                    "primary-fixed": "#ffdad5",
+                    "surface-bright": "#fff8f6",
+                    "on-background": "#291714",
+                    "secondary-container": "#fcd400",
+                    "on-tertiary-fixed-variant": "#822800",
+                    "on-primary-fixed-variant": "#930001",
+                    "secondary-fixed": "#ffe16d",
+                    "surface-container-low": "#fff0ee",
+                    "tertiary-fixed": "#ffdbcf",
+                    "primary-fixed-dim": "#ffb4a8",
+                    "error": "#ba1a1a",
+                    "surface-container": "#ffe9e6",
+                    "on-primary-container": "#fffbff",
+                    "primary-container": "#e61a12",
+                    "surface-tint": "#c00002",
+                    "surface-dim": "#f5d2cd",
+                    "surface-container-high": "#ffe2dd",
+                    "on-secondary-fixed": "#221b00",
+                    "outline": "#936e69",
+                    "on-error": "#ffffff",
+                    "inverse-on-surface": "#ffedea",
+                    "surface-container-highest": "#fedbd5",
+                    "on-primary": "#ffffff",
+                    "surface-variant": "#fedbd5",
+                    "inverse-primary": "#ffb4a8",
+                    "primary": "#bc0002"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "base-unit": "8px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "20px",
+                    "gutter": "24px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "headline-xl": ["Playfair Display"],
+                    "headline-lg-mobile": ["Playfair Display"],
+                    "body-md": ["Manrope"],
+                    "body-lg": ["Manrope"],
+                    "label-md": ["Manrope"],
+                    "headline-lg": ["Playfair Display"],
+                    "headline-md": ["Playfair Display"]
+            },
+            "fontSize": {
+                    "headline-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                    "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #fff8f6;
+            color: #291714;
+            scroll-behavior: smooth;
+        }
+        .luxury-shadow {
+            box-shadow: 0 10px 30px -10px rgba(10, 17, 40, 0.08);
+        }
+        .editorial-image-mask {
+            clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md">
+<!-- Top Navigation Bar -->
+<header class="w-full top-0 sticky bg-surface shadow-sm z-50">
+<nav class="flex justify-between items-center px-margin-desktop h-20 max-w-container-max mx-auto transition-all duration-300 ease-in-out">
+<div class="font-headline-md text-headline-md text-primary font-bold"><a href="index.html">Abif Global</a></div>
+<div class="hidden md:flex items-center space-x-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="index.html">Home</a>
+<a class="text-primary border-b-2 border-primary pb-1 font-semibold" href="about.html">About Us</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="services.html">Visa Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="bg-primary text-on-primary px-8 py-3 font-bold rounded-lg transition-transform hover:scale-105 active:scale-95 shadow-lg">
+                Inquire Now
+            </a>
+</nav>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative py-24 md:py-32 overflow-hidden">
+<div class="absolute inset-0 bg-primary/5 -z-10"></div>
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-2 gap-gutter items-center">
+<div>
+<span class="font-label-md text-label-md text-tertiary uppercase mb-4 block">Our Heritage</span>
+<h1 class="font-headline-xl text-headline-xl mb-8 leading-tight">Elevating Global Mobility Since 1998.</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg mb-10">
+                        Abif Global stands as a beacon of excellence in international travel and visa consultancy. We bridge the distance between dreams and destinations with a meticulous, luxury-first approach.
+                    </p>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/10 rounded-xl rotate-3 transition-transform group-hover:rotate-0"></div>
+<img alt="Abif Global Office" class="relative z-10 w-full aspect-[4/3] object-cover rounded-xl luxury-shadow" data-alt="A luxurious, sun-drenched corporate office meeting room with panoramic floor-to-ceiling windows overlooking a modern global skyline. The interior features premium wood paneling and minimalist white furniture, reflecting a high-end corporate editorial style. Soft, warm natural light fills the space, highlighting the sophisticated and trustworthy atmosphere of Abif Global’s headquarters." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEa4g9isZ7BKFkI-PhQaRBKRbfHan9h2ik0TkuyZRU_mVdzOEcRVffFR_zatgLDjHisO88ytbkfYMy0T-GTueChlhn57cZhNOJMlP_X6K4hLJfhP6vUYtLV6rjioIWLvMhrB3_pmC_UgbMi9Elb5E99_bQvx0vcnjiFAT0hT-gOf4RQQ4Wp2C3kZLXfgDk47oANaTHegBuB9qqMj3wYECBySe81XJLECGnd_GEwYK_nNubQZCoWF5_RRhj7CLYFcKb0T6GrVh2DFL4"/>
+</div>
+</div>
+</section>
+<!-- Our Story Section (Asymmetric Layout) -->
+<section class="py-24 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+<div class="md:col-span-5 order-2 md:order-1">
+<img alt="Collaborative Team" class="w-full h-full object-cover rounded-2xl luxury-shadow" data-alt="A candid, high-resolution shot of a diverse team of professionals engaged in a collaborative strategy session around a large architectural table. The lighting is crisp and bright, characteristic of a premium lifestyle editorial. The scene captures an atmosphere of focused excellence and global cooperation, using a palette of soft creams, rich deep reds, and navy accents." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCS-UUSuMQGwYVYyI28RFEiFCKRAV228M1brPW0hAfr26vWNJzyWwgLpOyuCx-QfXiLoIVnjT0UIdWuGIPcnCCOnL5eiTi6DUV-8_9HBs5oGcE36us4hfVUATBuuP8DfQtn_AGsvKm8V2S0LUeA5Ta8DGXw1sjKAS66CGEVRsNN2bxjhJ5fIw76AZk716RC3qO4ip3wiLG7KgoE2sGU_mZ7qBAOPFTM_EYL-S2Z0Gjqx5bPIR-yaQzn6ZHANqsQCOR3inhFH_Dne93N"/>
+</div>
+<div class="md:col-span-7 md:pl-16 order-1 md:order-2 mb-12 md:mb-0">
+<h2 class="font-headline-lg text-headline-lg mb-6">A Journey of Trust</h2>
+<div class="space-y-6 text-on-surface-variant font-body-lg text-body-lg">
+<p>Founded on the principle that global exploration should be seamless, Abif Global began as a boutique consultancy in the heart of London. Over two decades, we have evolved into a premier international facilitator, navigating the complexities of global borders with grace and precision.</p>
+<p>Our story is not just about logistics; it's about the people we've helped find their new homes, start their dream careers abroad, and reunite with loved ones across continents. We combine traditional professional integrity with modern technological efficiency.</p>
+</div>
+<div class="mt-10 flex gap-8">
+<div>
+<span class="block font-headline-md text-headline-md text-primary">25k+</span>
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Success Stories</span>
+</div>
+<div>
+<span class="block font-headline-md text-headline-md text-primary">45+</span>
+<span class="font-label-md text-label-md text-on-surface-variant uppercase">Nations Served</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Core Commitments (Bento Grid) -->
+<section class="py-24 bg-on-surface text-surface">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="text-center mb-16">
+<h2 class="font-headline-lg text-headline-lg mb-4 text-surface">Our Core Commitments</h2>
+<p class="text-surface/70 max-w-2xl mx-auto">The pillars that define our service excellence and organizational culture.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
+<div class="md:col-span-2 md:row-span-1 bg-surface-container-lowest/10 p-8 rounded-2xl flex flex-col justify-end border border-surface/10 hover:bg-surface-container-lowest/20 transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-4 group-hover:scale-110 transition-transform">verified_user</span>
+<h3 class="font-headline-md text-headline-md mb-2">Unwavering Integrity</h3>
+<p class="text-surface/80">Transparency in every visa application, ensuring honest pathways to global opportunities.</p>
+</div>
+<div class="md:col-span-1 md:row-span-2 bg-primary p-8 rounded-2xl flex flex-col justify-center text-center items-center border border-primary-fixed/20 hover:bg-primary/90 transition-all">
+<span class="material-symbols-outlined text-surface text-5xl mb-6">public</span>
+<h3 class="font-headline-md text-headline-md mb-4 text-on-primary">Global Vision</h3>
+<p class="text-on-primary/90">A localized approach to global expansion, respecting cultural nuances in every territory we operate.</p>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-surface-container-lowest/10 p-8 rounded-2xl flex flex-col justify-end border border-surface/10 hover:bg-surface-container-lowest/20 transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-4 group-hover:scale-110 transition-transform">diamond</span>
+<h3 class="font-headline-md text-headline-md mb-2">Premium Care</h3>
+<p class="text-surface/80">Personalized concierge-level attention to every client journey.</p>
+</div>
+<div class="md:col-span-1 md:row-span-1 bg-surface-container-lowest/10 p-8 rounded-2xl flex flex-col justify-end border border-surface/10 hover:bg-surface-container-lowest/20 transition-colors group">
+<span class="material-symbols-outlined text-secondary-container text-4xl mb-4 group-hover:scale-110 transition-transform">speed</span>
+<h3 class="font-headline-md text-headline-md mb-2">Agile Delivery</h3>
+<p class="text-surface/80">Rapid processing without compromising on the quality of documentation.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership Team -->
+<section class="py-24 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="font-headline-lg text-headline-lg mb-4">The Visionaries Behind Abif</h2>
+<p class="text-on-surface-variant font-body-lg">Meet the minds leading our mission to simplify global transitions.</p>
+</div>
+<div class="flex gap-2">
+<button class="p-4 rounded-full border border-outline hover:bg-primary hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined">west</span>
+</button>
+<button class="p-4 rounded-full border border-outline hover:bg-primary hover:text-on-primary transition-all duration-300">
+<span class="material-symbols-outlined">east</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+<!-- Chairman -->
+<div class="group">
+<div class="overflow-hidden rounded-xl mb-4 luxury-shadow aspect-[3/4]">
+<img alt="Chairman" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAm9h8B-_WUVX_6N85RvgdRNy2Ys8guUTFUMAs3uu2MMMEy1c5mP_tGpWobJY7oeGo6B2g7vv268TT6Glu0C0yh83fG2XIZbZee_LxfavggE3kg51IgAIhGIYGZYGBPqKiLRAfiKffgwWPWiwxxP3d8xyzUz6I5QcCcZZs2LA3p7-VTEBPBv4TRBRlLIsygRXnZVyyeidlIRcBuBnNzzc6HapVfdlf7do5Ev10k4jJjSeuKS-ZH0UXgvWThQWLeh0QeSJxDQeStSmjI"/>
+</div>
+<h4 class="font-headline-md text-body-lg font-bold mb-1">Alistair Beaumont</h4>
+<p class="text-label-md text-tertiary uppercase">Chairman</p>
+</div>
+<!-- CEO -->
+<div class="group">
+<div class="overflow-hidden rounded-xl mb-4 luxury-shadow aspect-[3/4]">
+<img alt="CEO" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgddUj56NUi7k8Gs8WG8Fpd6xQMVSg2nxwSd_VaMegGG0ChPNvqG56t0j7hNd0CoDhm_TOoLBBX6vvvnz0-kGI79F98Cd1ZQm7lTjsnV-cyRUcKKNVyLWSfMgv-Vfuhxa00sbdl-DfX4iSS-aoU1dopNU3-kvIuPyE9qS_kavU6rZv_KKVudJvcHnABpBSxCyk3pHTFdOHPvpJ53MhqkOpM2_PadQz4LbFMkNztd488NdEpbRn1JLM9vl2S3iM_SUg_Mt7z82GsGED"/>
+</div>
+<h4 class="font-headline-md text-body-lg font-bold mb-1">Sarah Jenkins</h4>
+<p class="text-label-md text-tertiary uppercase">Chief Executive Officer</p>
+</div>
+<!-- HR -->
+<div class="group">
+<div class="overflow-hidden rounded-xl mb-4 luxury-shadow aspect-[3/4]">
+<img alt="HR Director" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtfm9Mrof0VDQIg_nkXQIdsI8x4rJ6T59aEW3W6aut4NTdFYaZ-RG77e9f8W0RpPAEhcOc74H3AUUb66F80YZdYq2S66LAJ3HCHhubUDkSqB-F6wwToDYguHfacOyF8mWO8t4PmIrTAE9MfoLSaUfeZ3x0FJ7abrgNfFT2MwzMnUzXEBlKLW8LsMK5gzqGLWBHwmWQk3sXsimNRBpm7ZmIMTCyscpA0XbHd0IIl0wX6DzWXUzos_qIyU6f8eMVx9BI48GmFqAAmSe6"/>
+</div>
+<h4 class="font-headline-md text-body-lg font-bold mb-1">Marcus Thorne</h4>
+<p class="text-label-md text-tertiary uppercase">HR Director</p>
+</div>
+<!-- Marketing -->
+<div class="group">
+<div class="overflow-hidden rounded-xl mb-4 luxury-shadow aspect-[3/4]">
+<img alt="Marketing Director" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE1eFt4dVt8vtmimRE_FmM8OV1cXyO1_xHEFJFqGhbO7bH40qaTkFBYkBwj4ffw3KEGKzo_1Z1UirEpK0iqRfRBP-uXheVpTJ20fs8n_Vs6C7SWmGm5_uZwCQlv2jfQsbPb62NadU7DRPuyHLFDabU36WobBAlhpmZq2BeuUHaVYsi7eMDsM-dzdUHj2_Zpje_bxPzwCNT6Q2n43pdTMqkw9ipxKJr8jiUnFRtNroR_bSzHsEXFQC_3lG6EtIiSdB6Rvgwh4oWAgZw"/>
+</div>
+<h4 class="font-headline-md text-body-lg font-bold mb-1">Elena Rodriguez</h4>
+<p class="text-label-md text-tertiary uppercase">Marketing Director</p>
+</div>
+<!-- Accountant -->
+<div class="group">
+<div class="overflow-hidden rounded-xl mb-4 luxury-shadow aspect-[3/4]">
+<img alt="Chief Accountant" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500 scale-105 group-hover:scale-100" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd5igC3rO74NUrETC8FhYqAjG6FDDVoe9Wnz2W1nK98y3SFjbORwZUkGvNjHmHgnCkP2ojAUUzu7KCv7Qz_GkfgyzYLngVum3-Z6y_SOm4NMET9MsJwVLmvZx46vR-Ufw-8nPLdTzD5A016vJJzWXDCU5NG0SREI8mkTt1PfYt01B24NAwhrgG8D1dTPBzcXON9S9d0U4oOMhhAMh7FdlyIhTYyTx8dAFszJAngZepacI7efa-5ZyujS3GxUBAt2r6lrXwueU2puLb"/>
+</div>
+<h4 class="font-headline-md text-body-lg font-bold mb-1">David Chen</h4>
+<p class="text-label-md text-tertiary uppercase">Chief Financial Officer</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Specialized Departments -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-gutter items-center mb-16">
+<h2 class="font-headline-lg text-headline-lg">Specialized Units of Excellence</h2>
+<p class="text-on-surface-variant font-body-lg">Our multi-disciplinary teams are strategically divided to provide niche expertise for every unique client requirement.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="bg-surface p-10 rounded-2xl luxury-shadow border-t-4 border-primary hover:-translate-y-2 transition-transform duration-300">
+<div class="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined">work</span>
+</div>
+<h3 class="font-headline-md text-body-lg font-bold mb-4">Corporate Solutions</h3>
+<p class="text-on-surface-variant mb-6">Expert guidance for multi-national corporations seeking talent mobility and employee relocation strategies.</p>
+<a class="text-primary font-bold inline-flex items-center group" href="services.html">
+                            Learn More <span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="bg-surface p-10 rounded-2xl luxury-shadow border-t-4 border-secondary-container hover:-translate-y-2 transition-transform duration-300">
+<div class="w-12 h-12 bg-secondary-container/10 rounded-lg flex items-center justify-center mb-6 text-secondary">
+<span class="material-symbols-outlined">school</span>
+</div>
+<h3 class="font-headline-md text-body-lg font-bold mb-4">Academic Placement</h3>
+<p class="text-on-surface-variant mb-6">Connecting ambitious students with top-tier global universities and handling all visa documentation.</p>
+<a class="text-primary font-bold inline-flex items-center group" href="services.html">
+                            Learn More <span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="bg-surface p-10 rounded-2xl luxury-shadow border-t-4 border-tertiary-container hover:-translate-y-2 transition-transform duration-300">
+<div class="w-12 h-12 bg-tertiary-container/10 rounded-lg flex items-center justify-center mb-6 text-tertiary">
+<span class="material-symbols-outlined">family_restroom</span>
+</div>
+<h3 class="font-headline-md text-body-lg font-bold mb-4">Family Migration</h3>
+<p class="text-on-surface-variant mb-6">Compassionate and detailed assistance for families seeking to reunite or settle in new nations together.</p>
+<a class="text-primary font-bold inline-flex items-center group" href="services.html">
+                            Learn More <span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-24">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="bg-primary rounded-[40px] p-12 md:p-24 text-center text-on-primary relative overflow-hidden luxury-shadow">
+<div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
+<div class="relative z-10">
+<h2 class="font-headline-lg text-headline-lg mb-8">Ready to Start Your Global Chapter?</h2>
+<p class="text-on-primary/80 font-body-lg mb-12 max-w-2xl mx-auto">Our specialists are standing by to curate your unique visa and relocation strategy. Experience the Abif difference today.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<a href="contact.html" class="bg-surface text-primary px-10 py-4 font-bold rounded-full hover:bg-secondary-fixed transition-colors shadow-xl flex items-center justify-center">
+                                Consult with a Specialist
+                            </a>
+<a href="services.html" class="border border-on-primary text-on-primary px-10 py-4 font-bold rounded-full hover:bg-white/10 transition-colors flex items-center justify-center">
+                                View Service Directory
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-on-surface text-surface py-16">
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-gutter">
+<div class="md:col-span-1">
+<div class="font-headline-md text-headline-md text-surface font-bold mb-6">Abif Global</div>
+<p class="text-surface-variant mb-6">Pioneering global mobility with precision, passion, and unparalleled expertise since 1998.</p>
+</div>
+<div>
+<h5 class="font-label-md text-label-md mb-6 uppercase text-tertiary-fixed">Company</h5>
+<ul class="space-y-4 text-surface-variant font-body-md">
+<li><a class="hover:text-secondary-fixed transition-colors" href="about.html">Our Story</a></li>
+<li><a class="hover:text-secondary-fixed transition-colors" href="#">Careers</a></li>
+<li><a class="hover:text-secondary-fixed transition-colors" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-md text-label-md mb-6 uppercase text-tertiary-fixed">Resources</h5>
+<ul class="space-y-4 text-surface-variant font-body-md">
+<li><a class="hover:text-secondary-fixed transition-colors" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-secondary-fixed transition-colors" href="#">Terms of Service</a></li>
+<li><a class="hover:text-secondary-fixed transition-colors" href="#">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-md text-label-md mb-6 uppercase text-tertiary-fixed">Newsletter</h5>
+<p class="text-surface-variant mb-4 text-sm">Stay updated with the latest global immigration trends.</p>
+<form id="footer-newsletter" class="flex w-full">
+<input required class="bg-white/10 border-none text-surface rounded-l-lg focus:ring-1 focus:ring-secondary-fixed w-full p-3" placeholder="Email" type="email"/>
+<button type="submit" class="bg-primary text-on-primary p-3 rounded-r-lg hover:bg-primary-container transition-colors">
+<span class="material-symbols-outlined">send</span>
+</button>
+</form>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-desktop border-t border-white/5 mt-16 pt-8 flex flex-col md:flex-row justify-between text-sm text-surface-variant">
+<p>© 2024 Abif Global. All rights reserved.</p>
+<div class="flex gap-6 mt-4 md:mt-0">
+<a class="hover:text-surface transition-colors" href="#">LinkedIn</a>
+<a class="hover:text-surface transition-colors" href="#">Twitter</a>
+<a class="hover:text-surface transition-colors" href="#">Instagram</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple animation for numbers when they enter the viewport
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('opacity-0', 'translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+            observer.observe(section);
+        });
+
+        // Sticky header color change
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('bg-white/95', 'backdrop-blur-md');
+            } else {
+                header.classList.remove('bg-white/95', 'backdrop-blur-md');
+            }
+        });
+
+        // Footer newsletter
+        const footerNewsletter = document.getElementById('footer-newsletter');
+        if (footerNewsletter) {
+            footerNewsletter.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const emailInput = footerNewsletter.querySelector('input[type="email"]');
+                if (emailInput && emailInput.value) {
+                    alert(`Thank you for subscribing! We've sent a confirmation email to ${emailInput.value}.`);
+                    emailInput.value = '';
+                }
+            });
+        }
+    </script>
+</body></html>

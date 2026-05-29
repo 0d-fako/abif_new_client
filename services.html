@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Visa Services | Abif Global</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface": "#fff8f6",
+                        "on-secondary-container": "#6e5c00",
+                        "on-primary-fixed": "#410000",
+                        "on-surface": "#291714",
+                        "secondary-fixed-dim": "#e9c400",
+                        "outline-variant": "#e8bcb6",
+                        "background": "#fff8f6",
+                        "inverse-surface": "#402b28",
+                        "tertiary-container": "#c25227",
+                        "on-tertiary-fixed": "#380c00",
+                        "secondary": "#705d00",
+                        "on-secondary-fixed-variant": "#544600",
+                        "error-container": "#ffdad6",
+                        "tertiary": "#a13a0f",
+                        "on-tertiary-container": "#fffbff",
+                        "on-tertiary": "#ffffff",
+                        "on-secondary": "#ffffff",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-fixed-dim": "#ffb59c",
+                        "on-error-container": "#93000a",
+                        "on-surface-variant": "#5e3f3a",
+                        "primary-fixed": "#ffdad5",
+                        "surface-bright": "#fff8f6",
+                        "on-background": "#291714",
+                        "secondary-container": "#fcd400",
+                        "on-tertiary-fixed-variant": "#822800",
+                        "on-primary-fixed-variant": "#930001",
+                        "secondary-fixed": "#ffe16d",
+                        "surface-container-low": "#fff0ee",
+                        "tertiary-fixed": "#ffdbcf",
+                        "primary-fixed-dim": "#ffb4a8",
+                        "error": "#ba1a1a",
+                        "surface-container": "#ffe9e6",
+                        "on-primary-container": "#fffbff",
+                        "primary-container": "#e61a12",
+                        "surface-tint": "#c00002",
+                        "surface-dim": "#f5d2cd",
+                        "surface-container-high": "#ffe2dd",
+                        "on-secondary-fixed": "#221b00",
+                        "outline": "#936e69",
+                        "on-error": "#ffffff",
+                        "inverse-on-surface": "#ffedea",
+                        "surface-container-highest": "#fedbd5",
+                        "on-primary": "#ffffff",
+                        "surface-variant": "#fedbd5",
+                        "inverse-primary": "#ffb4a8",
+                        "primary": "#bc0002"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "base-unit": "8px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px",
+                        "gutter": "24px",
+                        "container-max": "1280px"
+                    },
+                    "fontFamily": {
+                        "headline-xl": ["Playfair Display"],
+                        "headline-lg-mobile": ["Playfair Display"],
+                        "body-md": ["Manrope"],
+                        "body-lg": ["Manrope"],
+                        "label-md": ["Manrope"],
+                        "headline-lg": ["Playfair Display"],
+                        "headline-md": ["Playfair Display"]
+                    },
+                    "fontSize": {
+                        "headline-xl": ["60px", {"lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "40px", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
+                        "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "headline-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                        "headline-md": ["32px", {"lineHeight": "40px", "fontWeight": "600"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .card-glass {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+        .text-shadow-subtle {
+            text-shadow: 0 2px 4px rgba(10, 17, 40, 0.15);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body-md overflow-x-hidden">
+<!-- Top Navigation Bar -->
+<header class="w-full top-0 sticky bg-surface shadow-sm z-50 transition-all duration-300 ease-in-out">
+<nav class="flex justify-between items-center px-margin-desktop h-20 max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-primary font-bold">
+                <a href="index.html">Abif Global</a>
+            </div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 font-body-md" href="index.html">Home</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 font-body-md" href="about.html">About Us</a>
+<a class="text-primary border-b-2 border-primary pb-1 font-body-md" href="services.html">Visa Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 font-body-md" href="contact.html">Contact</a>
+</div>
+<a href="contact.html" class="bg-primary-container text-on-primary-container px-6 py-3 rounded-full font-label-md hover:bg-primary transition-all duration-300 shadow-md flex items-center justify-center">
+                Inquire Now
+            </a>
+</nav>
+</header>
+<!-- Hero Section with Search -->
+<section class="relative h-[450px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 bg-on-surface/40 z-10"></div>
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A cinematic wide shot of a modern airport terminal with soft natural light flooding through floor-to-ceiling windows, highlighting clean architectural lines. The scene is captured in a luxury editorial style, dominated by a sophisticated cream and midnight blue palette with subtle red accents. The atmosphere is professional, calm, and evocative of global travel opportunities." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAln9hLL10vfmAvsUrtgT3J6G95PiJDElfI4rIDXizNyBQ43pmp9tyXVrqYO39OiFFbLVVIEiiFb4PnXogPCXbVDNWTha1FrCm6tB9CTLIGmhueOPCx2er2E79KIbVmMqVKBL0_Q1o2ysNacGrpRZ4m0NmkEIhnTsE-DxNUAE7JUYtTFMqXPZB9zFRR_MKKuaPUYNXUBMt7XgoIOnqjYklyCizhca4q2v4w4A_BLmKboZUACGx_dq4o0o_r05PUqxYd8Cscd9zOlZsk"/>
+<div class="relative z-20 text-center px-margin-mobile max-w-3xl mx-auto">
+<h1 class="font-headline-lg text-headline-lg md:text-headline-xl text-white mb-6">Global Mobility Realized</h1>
+<p class="font-body-lg text-white/90 mb-10 max-w-2xl mx-auto">Explore our curated visa pathways and professional immigration services designed for your global ambitions.</p>
+<!-- Search & Filter Bar -->
+<div class="bg-surface p-2 rounded-2xl shadow-xl flex flex-col md:flex-row gap-2 max-w-4xl mx-auto border border-outline-variant/30">
+<div class="flex-1 flex items-center px-4 py-3 bg-surface-container-low rounded-xl">
+<span class="material-symbols-outlined text-primary mr-3">search</span>
+<input id="service-search-input" class="bg-transparent border-none focus:ring-0 w-full font-body-md text-on-surface" placeholder="Search destinations or visa types..." type="text"/>
+</div>
+<div class="flex items-center px-4 py-3 bg-surface-container-low rounded-xl md:w-48">
+<span class="material-symbols-outlined text-secondary mr-3">filter_list</span>
+<select id="service-filter-select" class="bg-transparent border-none focus:ring-0 w-full font-body-md text-on-surface appearance-none">
+<option value="all">All Services</option>
+<option value="pr">Permanent Residency</option>
+<option value="work">Work Visa</option>
+<option value="student">Student Visa</option>
+</select>
+</div>
+<button id="service-search-btn" class="bg-primary text-white px-8 py-3 rounded-xl font-label-md hover:brightness-110 transition-all">
+                    Search
+                </button>
+</div>
+</div>
+</section>
+<!-- Main Content: Visa Grid -->
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-20">
+<div class="flex justify-between items-end mb-12">
+<div>
+<span class="text-tertiary font-label-md uppercase tracking-widest mb-2 block">Our Expertise</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Premium Visa Solutions</h2>
+</div>
+<div class="hidden md:flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-primary-container hover:text-white transition-all">
+<span class="material-symbols-outlined">arrow_back</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline flex items-center justify-center hover:bg-primary-container hover:text-white transition-all">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Asymmetric Bento-Inspired Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- UK Skilled Worker (Large Feature) -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-3xl h-[500px] shadow-sm hover:shadow-xl transition-all duration-500">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A premium luxury view of the Palace of Westminster and Big Ben at dusk, with golden city lights reflecting in the Thames river. The aesthetic is sophisticated and editorial, using a high-contrast lighting scheme that highlights the rich architecture. The color palette emphasizes deep blues and warm amber tones, consistent with a professional corporate modern brand." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzhljxk21dK5DFoKZztPo1h1enpsyy1dH-63M4Jkuw5ekULjb9IlCQiUVG5TOuO9gT6g7ICMyOIna_jC_s6InHwDr_hGRrsOSvDJa8Vm_pgc2IQyryQrzXnsv_G_Lu_OSGxusbXUwC1XVFNJwqvs0r-jzXw7oWHlAjZ0VkoHMOwZqoE47uDgrAF93XCuFL_XyB9G-TMsKIRNJBO-CSr3ivTe6vq4vrVyR__EzUuU1BK2DAzRZqz_fV60N3hHIxa_b_5S66lf-9uG3P"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/20 to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="bg-secondary-container text-on-secondary-container px-4 py-1.5 rounded-full font-label-md">Professional Work</span>
+</div>
+<div class="absolute bottom-0 left-0 p-8 w-full">
+<h3 class="font-headline-md text-white mb-3">UK Skilled Worker Visa</h3>
+<p class="text-white/80 font-body-md mb-6 max-w-lg">Full sponsorship assistance and eligibility assessment for healthcare, tech, and engineering professionals looking to build a career in the United Kingdom.</p>
+<div class="flex items-center gap-6">
+<a href="visa-uk.html" class="bg-primary text-white px-6 py-3 rounded-xl font-label-md flex items-center gap-2 group-hover:bg-primary-container transition-all">
+                            Learn More <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<span class="text-white font-label-md flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary">verified</span> Guaranteed Process
+                        </span>
+</div>
+</div>
+</div>
+<!-- Canada PR (Side Card) -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-3xl h-[500px] shadow-sm hover:shadow-xl transition-all duration-500">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A serene and majestic landscape of the Canadian Rockies with a crystal clear turquoise lake in the foreground, reflecting the snow-capped mountain peaks. The lighting is crisp and airy, following a luxury travel editorial aesthetic with a palette of soft whites, deep blues, and vibrant greens. The overall mood is aspirational and tranquil." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWlr58DhRR4ht2nGdbPmxQG7ZP0y9elfZa9bquGfn8zKDnNfqkQ3bkPVQVX3vjyk1K6QTgKK4V44dDnOqfoFiI7s1PZ5-Pw-J3d4_c9lRXVTrlJEXlv_F_kVQNFUsqL4O3-bVLFf-ITdEfo05sPQeTC_HCYmcAoAbIXa_o6x-FbMO78iFlE9YzzwekRagBsql84-SeaCitqPlJNdH81zsW_5_hrPa6npanwxEzDyQkYCC_8TpxUIsH2ukiYj58ZX5D7fosw_Xt1k1U"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/90 via-on-surface/10 to-transparent"></div>
+<div class="absolute top-6 left-6">
+<span class="bg-tertiary-fixed text-on-tertiary-fixed-variant px-4 py-1.5 rounded-full font-label-md">Permanent Residency</span>
+</div>
+<div class="absolute bottom-0 left-0 p-8">
+<h3 class="font-headline-md text-white mb-2">Canada Express Entry</h3>
+<p class="text-white/80 font-body-md mb-4">Secure your permanent residency through Federal Skilled Worker programs.</p>
+<a class="text-secondary-fixed font-label-md hover:underline flex items-center gap-2" href="visa-canada.html">Explore Pathway <span class="material-symbols-outlined">north_east</span></a>
+</div>
+</div>
+<!-- Schengen Visa (Square) -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-3xl h-[400px] shadow-sm">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A stylish outdoor cafe in a historic European city square, featuring intricate cobblestone patterns and elegant wrought iron furniture. The lighting is warm and golden, reminiscent of late afternoon sun in Paris or Rome. The image emphasizes a high-end, leisurely lifestyle within a corporate travel context, using a refined color palette of cream, charcoal, and ochre." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAikY8WRI3uaM5vlIRYvc5Xte1mN5pnpbp8bduy-5p-CrZ6EssOn1oHlhNsed_TA0OhGLP5tpFp-KAzd43G0BhjYvlpnY5WL-G0lYNHtlADWKRS_oEQKQ5m1irB5oWamYCAVKFkam0EFfQ7Qrs4vYdwRQaOHuSNpB-zW8nF0yE6YYFUKx_deO2sOpWo7a9lRhUQnNImav37ltG33v0VzeHVCclux5McN0EGHT23OxtLZQymlYMFGXD9rrV8dJAxT0nqUTw7QoVlJQ-T"/>
+<div class="absolute inset-0 bg-on-surface/40 group-hover:bg-on-surface/20 transition-all"></div>
+<div class="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+<h3 class="font-headline-md text-white mb-2 text-shadow-subtle">Schengen Visa</h3>
+<p class="text-white/90 font-body-md mb-6">Multi-entry access to 27 European countries.</p>
+<a href="visa-europe.html" class="bg-white/20 backdrop-blur-md border border-white/40 text-white px-6 py-2 rounded-full hover:bg-white hover:text-primary transition-all font-label-md flex items-center justify-center">Apply Now</a>
+</div>
+</div>
+<!-- UK Student/Tourist (Horizontal Narrow) -->
+<div class="md:col-span-8 group relative overflow-hidden rounded-3xl h-[400px] shadow-sm">
+<div class="absolute inset-0 bg-surface-container-high z-0"></div>
+<div class="flex flex-col md:flex-row h-full">
+<div class="w-full md:w-1/2 p-8 flex flex-col justify-center">
+<span class="text-primary font-label-md mb-2">Education &amp; Leisure</span>
+<h3 class="font-headline-md text-on-surface mb-4">UK Student &amp; Visitor Services</h3>
+<p class="text-on-surface-variant mb-6">Whether you are pursuing a world-class degree or exploring London's landmarks, we handle the entire documentation process.</p>
+<ul class="space-y-2 mb-8">
+<li class="flex items-center gap-2 text-on-surface-variant font-body-md">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span> Fast-track Processing
+                            </li>
+<li class="flex items-center gap-2 text-on-surface-variant font-body-md">
+<span class="material-symbols-outlined text-primary text-sm">check_circle</span> CAS Assistance
+                            </li>
+</ul>
+</div>
+<div class="w-full md:w-1/2 relative overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A high-angle view of a red double-decker bus crossing Westminster Bridge in London, with the historic architecture of Parliament in the background. The lighting is bright and clean, emphasizing a modern corporate travel aesthetic with bold primary colors balanced by classic stone textures. The composition is dynamic and professionally framed." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2OjzT1qxz3Tkg-wtkQphvB_s884N5v_kR5uRTZhU2OrX2rpo9vlzNLYWXGBffOIiX2gClN7ppQXKih8cVr6tohUCUEJKOq-5BSPsTZMINhhqmvwnDiUSQ62Z0Ox7jg69NIfpJDSHmBNzPQvn8YnkthUgEGwNmg3VcAUFjqCT4fXyt-8XYBYHBuj8vY7LFBPWVdOo5Vz5J1DIQOADDEKdS_5K6T3G38_cjz6Jajm1B8Os9mrXwd7GHKflDZtn9wt36ZVFwosZxKLDE"/>
+</div>
+</div>
+</div>
+<!-- Kuwait Truck Driver (Portrait Card) -->
+<div class="md:col-span-6 group relative overflow-hidden rounded-3xl h-[450px] shadow-sm border border-outline-variant/20">
+<div class="absolute inset-0 bg-on-surface">
+<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-700" data-alt="A modern heavy-duty truck driving across a vast, sun-drenched desert highway in the Middle East during the golden hour. The sky is painted with vibrant oranges and soft purples, reflecting off the polished chrome of the vehicle. The style is rugged yet high-end, focusing on reliability and professional logistics opportunities in a corporate modern framework." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrDBIUrmZe72ZDnXIGq98ZrBhDYEZRo01E99H8qWsC5RiL0iacUSOtY4fIszADMtQ_citZihdUTkioTdFsx3N2A7lOUrss1Otyk8CRKMGCZLrnVsroosvWwJhCxAj8RhiZrQ6HNDg1ogcnSFn6h7340HzMe9RSVFkv2GLSe_CUZby1vAkTubfZhZa4u182oFCFkAeoRgZ-rFU-ny8HyN0KuBygeJzj94k93-vuZOuY-ZfdvzA276nyJfv654pXbw0E_t26z4oCR9JS"/>
+</div>
+<div class="absolute bottom-0 left-0 p-8 w-full bg-gradient-to-t from-on-surface via-on-surface/40 to-transparent">
+<div class="flex justify-between items-end">
+<div>
+<h3 class="font-headline-md text-white mb-2">Kuwait Skilled Labor</h3>
+<p class="text-white/70 font-body-md mb-0">Specialized placements for experienced Truck Drivers and Logistics Personnel.</p>
+</div>
+<div class="text-right">
+<span class="text-secondary-fixed text-headline-md font-bold">Free</span>
+<p class="text-white/60 text-xs uppercase tracking-tighter">Consultation</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Dubai Vacation (Portrait Card) -->
+<div class="md:col-span-6 group relative overflow-hidden rounded-3xl h-[450px] shadow-sm">
+<img class="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="A luxurious high-altitude view of the Dubai skyline at night, with the Burj Khalifa towering over illuminated skyscrapers and winding glowing highways. The lighting is vibrant and neon-infused, following a high-end luxury editorial style. The color palette features deep navy blues, metallic golds, and brilliant whites, conveying a sense of futuristic success and opulence." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0PghDDrrnG24WTDnBDoXOsaodTuDbCDJ9WzUVneWaHVw5GKEAiI5h60drj9h5P6k_E4C1xoGbAvBeGn8nTl0aUiY2_hNXpMY7KvE1Oq0PD191S8aAXGJNFWvTQxNwUIi5z8Y9o1dCDLqjWn9p4EpaZEqMDiQ0k-KqeIWCcR4-uE8AYBdC82DCDvMwF-_B7fB_V29fD79jJbuabjHtcpRB5c-4jcpO81CTZDeGmIPm_Ldodx5D_U30hNvwijwFd6Z__oq2v5ch1-OD"/>
+<div class="absolute inset-0 bg-gradient-to-tr from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute inset-0 p-8 flex flex-col justify-end">
+<div class="card-glass p-6 rounded-2xl border border-white/20">
+<h3 class="font-headline-md text-on-surface mb-2">Dubai Leisure &amp; Business</h3>
+<p class="text-on-surface-variant font-body-md mb-4">Express visa processing for 30-day and 90-day stays in the UAE. Experience luxury without the paperwork stress.</p>
+<a href="contact.html?destination=dubai&amp;service=tourist" class="w-full bg-primary text-white py-3 rounded-xl font-label-md hover:shadow-lg transition-all flex items-center justify-center">Book Now</a>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Why Choose Us / CTA -->
+<section class="bg-on-surface py-24">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-white mb-8">Why Thousands Trust <span class="text-primary">Abif Global</span></h2>
+<div class="space-y-8">
+<div class="flex gap-6">
+<div class="w-14 h-14 shrink-0 rounded-2xl bg-surface/10 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div>
+<h4 class="font-headline-md text-white text-xl mb-1">98% Success Rate</h4>
+<p class="text-white/60 font-body-md">Our meticulous documentation and expert review process ensure your application stands the best chance.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="w-14 h-14 shrink-0 rounded-2xl bg-surface/10 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">public</span>
+</div>
+<div>
+<h4 class="font-headline-md text-white text-xl mb-1">Global Network</h4>
+<p class="text-white/60 font-body-md">Direct partnerships with recruiters and legal councils across UK, Canada, and the GCC.</p>
+</div>
+</div>
+<div class="flex gap-6">
+<div class="w-14 h-14 shrink-0 rounded-2xl bg-surface/10 flex items-center justify-center text-secondary-fixed">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">support_agent</span>
+</div>
+<div>
+<h4 class="font-headline-md text-white text-xl mb-1">24/7 Consultation</h4>
+<p class="text-white/60 font-body-md">Dedicated account managers available round the clock to track your application status.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
+<div class="relative bg-surface rounded-3xl p-10 border border-outline-variant/20 shadow-2xl">
+<h3 class="font-headline-md text-on-surface mb-6 text-center">Ready to Start?</h3>
+<form id="consultation-form" class="space-y-4">
+<div>
+<label class="block font-label-md text-on-surface-variant mb-1.5">Full Name</label>
+<input required class="w-full bg-surface-container-low border border-outline-variant rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-on-surface-variant mb-1.5">Email Address</label>
+<input required class="w-full bg-surface-container-low border border-outline-variant rounded-xl px-4 py-3 focus:ring-primary focus:border-primary" type="email"/>
+</div>
+<div>
+<label class="block font-label-md text-on-surface-variant mb-1.5">Service of Interest</label>
+<select id="consultation-service" class="w-full bg-surface-container-low border border-outline-variant rounded-xl px-4 py-3 focus:ring-primary focus:border-primary">
+<option value="uk">UK Skilled Worker</option>
+<option value="canada">Canada PR</option>
+<option value="europe">Schengen Visa</option>
+<option value="others">Others</option>
+</select>
+</div>
+<button type="submit" class="w-full bg-primary text-white py-4 rounded-xl font-label-md hover:shadow-xl transition-all mt-4">Book Free Consultation</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full bg-on-surface border-t border-white/5">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-16 max-w-container-max mx-auto">
+<div class="md:col-span-1">
+<div class="font-headline-md text-headline-md text-white font-bold mb-6">Abif Global</div>
+<p class="text-surface-variant font-body-md mb-8">Empowering global citizens through professional visa and migration pathways.</p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">share</span>
+</a>
+<a class="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-white hover:bg-primary transition-all" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="text-white font-label-md mb-6 uppercase tracking-wider">Services</h4>
+<ul class="space-y-4">
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="visa-uk.html">UK Immigration</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="visa-canada.html">Canada Express Entry</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="visa-europe.html">Europe Schengen</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="services.html">Middle East Jobs</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-label-md mb-6 uppercase tracking-wider">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="about.html">About Us</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="#">Careers</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="#">FAQ</a></li>
+<li><a class="text-surface-variant hover:text-secondary-fixed transition-colors font-body-md" href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-label-md mb-6 uppercase tracking-wider">Newsletter</h4>
+<p class="text-surface-variant font-body-md mb-6">Get weekly updates on visa policy changes and new job offers.</p>
+<form id="footer-newsletter" class="flex gap-2 w-full">
+<input required class="bg-white/5 border-white/10 rounded-lg px-4 py-2 text-white w-full focus:ring-primary" placeholder="Email" type="email"/>
+<button type="submit" class="bg-primary text-white p-2 rounded-lg"><span class="material-symbols-outlined">send</span></button>
+</form>
+</div>
+</div>
+<div class="border-t border-white/5 py-8 text-center px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-surface-variant font-body-md opacity-90">© 2024 Abif Global. All rights reserved.</p>
+<div class="flex gap-8">
+<a class="text-surface-variant hover:text-tertiary transition-colors font-body-md" href="#">Privacy Policy</a>
+<a class="text-surface-variant hover:text-tertiary transition-colors font-body-md" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple micro-interaction for scroll effects
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 50) {
+                header.classList.add('py-2', 'bg-surface/95', 'backdrop-blur-md');
+                header.classList.remove('h-20');
+            } else {
+                header.classList.remove('py-2', 'bg-surface/95', 'backdrop-blur-md');
+                header.classList.add('h-20');
+            }
+        });
+
+        // Search highlight interaction
+        const searchInput = document.querySelector('input[type="text"]');
+        searchInput.addEventListener('focus', () => {
+            searchInput.parentElement.classList.add('ring-2', 'ring-primary/20', 'border-primary');
+        });
+        searchInput.addEventListener('blur', () => {
+            searchInput.parentElement.classList.remove('ring-2', 'ring-primary/20', 'border-primary');
+        });
+
+        // Consultation Form Submit
+        const consultationForm = document.getElementById('consultation-form');
+        if (consultationForm) {
+            consultationForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = consultationForm.querySelector('input[type="text"]').value;
+                const service = document.getElementById('consultation-service').value;
+                alert(`Thank you, ${name}! Your consultation request for the ${service.toUpperCase()} program has been received. Our team will contact you within 24 hours.`);
+                consultationForm.reset();
+            });
+        }
+
+        // Footer Newsletter
+        const footerNewsletter = document.getElementById('footer-newsletter');
+        if (footerNewsletter) {
+            footerNewsletter.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const emailInput = footerNewsletter.querySelector('input[type="email"]');
+                if (emailInput && emailInput.value) {
+                    alert(`Thank you for subscribing! We've sent a confirmation email to ${emailInput.value}.`);
+                    emailInput.value = '';
+                }
+            });
+        }
+
+        // Top Search Action
+        const searchBtn = document.getElementById('service-search-btn');
+        if (searchBtn) {
+            searchBtn.addEventListener('click', () => {
+                const searchVal = document.getElementById('service-search-input').value.toLowerCase();
+                const filterVal = document.getElementById('service-filter-select').value;
+                
+                // Show simple alert for prototype feedback
+                alert(`Searching visa offers for: "${searchVal}" (Category: ${filterVal.toUpperCase()})`);
+            });
+        }
+    </script>
+</body></html>
