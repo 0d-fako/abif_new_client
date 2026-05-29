@@ -15,7 +15,7 @@ export default defineConfig({
     }
   },
   preview: {
-    allowedHosts: ['*'],
+    allowedHosts: ['abif-new-client.onrender.com'],
     port: 5174 
   }
 });
