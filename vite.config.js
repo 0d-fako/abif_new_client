@@ -13,5 +13,9 @@ export default defineConfig({
         europe: './visa-europe.html',
       }
     }
+  },
+  preview: {
+    allowedHosts: ['*'],
+    port: 5174 
   }
 });
